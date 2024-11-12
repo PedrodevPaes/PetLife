@@ -104,6 +104,15 @@ h1, h2{
     border-left: 1px solid #ff7272;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .2s;
+}
+.duvida.ativa .paragrafo{
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
 
 }
@@ -112,8 +121,9 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 80px;
-    padding: 64px ;
-}
+    padding: 60px 170px;
+    
+} 
 footer img, footer .titulo{
     display: block;
     font-weight: 600;
